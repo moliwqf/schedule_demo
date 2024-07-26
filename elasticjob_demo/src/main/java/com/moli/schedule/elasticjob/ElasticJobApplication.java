@@ -1,16 +1,17 @@
-package com.moli.task_logback;
+package com.moli.schedule.elasticjob;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
  * @author moli
- * @time 2024-07-16 14:24:17
+ * @time 2024-07-25 16:23:46
+ * @description elastic-job 应用
  */
 @SpringBootApplication
-public class TaskLogbackDemoApplication {
+public class ElasticJobApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(TaskLogbackDemoApplication.class, args);
+        SpringApplication.run(ElasticJobApplication.class, args);
     }
 }

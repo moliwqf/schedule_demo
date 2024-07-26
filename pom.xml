@@ -19,6 +19,7 @@
         <module>quartz_demo</module>
         <module>common</module>
         <module>springtask_demo</module>
+        <module>elasticjob_demo</module>
     </modules>
 
     <properties>

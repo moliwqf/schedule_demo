@@ -1,4 +1,4 @@
-package com.moli.schedule.quartz;
+package com.moli.schedule.quartz.schedule;
 
 import cn.hutool.core.date.DateUtil;
 import lombok.extern.slf4j.Slf4j;

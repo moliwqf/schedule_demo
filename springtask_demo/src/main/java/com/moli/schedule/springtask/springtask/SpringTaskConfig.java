@@ -1,4 +1,4 @@
-package com.moli.task_logback.springtask;
+package com.moli.schedule.springtask.springtask;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.scheduling.annotation.EnableScheduling;
@@ -12,7 +12,7 @@ import org.springframework.scheduling.config.ScheduledTaskRegistrar;
  * @description SpringTask 配置类
  */
 @Configuration
-@EnableScheduling
+//@EnableScheduling
 public class SpringTaskConfig implements SchedulingConfigurer {
 
     /**

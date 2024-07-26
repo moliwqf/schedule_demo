@@ -1,0 +1,12 @@
+server:
+  port: 8080
+elasticjob:
+  # 配置elastic job的注册中心和namespace
+  reg-center:
+    server-lists: localhost:2181
+    namespace: molispace
+  jobs:
+    moli-simple-job:
+      elastic-job-class: com.moli.schedule.elasticjob.job.MoliSimpleJob
+      cron: 0/5 * * * * ?
+      sharding-total-count: 3
