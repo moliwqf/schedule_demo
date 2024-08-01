@@ -4,12 +4,14 @@ mybatis-plus:
   mapper-locations: classpath:/mapper/**/*Mapper.xml
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    call-setters-on-nulls: true
   global-config:
     db-config:
       logic-delete-field: is_delete
       logic-delete-value: 1
       logic-not-delete-value: 0
       where-strategy: not_empty
+    banner: false
 spring:
   datasource:
     name: spring-task
@@ -20,3 +22,7 @@ spring:
     url: jdbc:mysql://127.0.0.1:3306/springtask_demo?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true
     username: root
     password: 123456
+  application:
+    name: schedule_demo
+knife4j:
+  enable: true

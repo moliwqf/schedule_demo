@@ -36,7 +36,6 @@
                 <version>${version}</version>
             </dependency>
         </dependencies>
-
     </dependencyManagement>
 
 </project>
